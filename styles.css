@@ -17,6 +17,7 @@ body {
 }
 
 .page-title {
+    color: #ddd;
     font-size: 2rem;
     font-weight: 500;
     justify-content: center;
@@ -35,60 +36,112 @@ body {
   
 
 .sub-title {
+    color: #ddd;
     font-size: 15px;
     justify-content: center;
     text-align: center;
 }
 
+.select-container {
+    margin-top: 30%;
+}
 
-.select-field {
-    border: 1px solid #545454;
-    width: 300px;
+.sub-container {
+    margin-bottom: 20px;
 }
 
 .list {
+    background: rgb(74, 35, 99);
     border: 1px solid #545454;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #545454;
     width: 300px;
     padding: 20px;
 }
 
 .select-field {
-    background-color: purple;
+    background: rgb(74, 35, 99);
     margin-top: 10px;
     margin-bottom: 5px;
+    width: 300px;
     padding: 20px;
     outline: none;
     border: 1px solid #545454;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #545454;
 }
 
 input {
-    background-color: purple;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 100;
+    font-size: 20px;
     outline: none;
     border: none;
 }
 
-.offers span {
-    color: purple;
+.offers {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.type-field {
+    color: #ddd;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.x-fig {
+    color: #9ba0b8;
+    font-size: 16.8px;
+    font-weight: 400;
+}
+
+.x-alph {
+    color: #ddd;
+    font-size: 16.8px;
+    font-weight: 400;
 }
 
 .arrow-up {
     font-size: 1rem;
-    color: #fff;
+    font-weight: 400;
+    color: #ddd;
     cursor: pointer;
     float: right;
 }
 
-.dropdown-selection {
-    
+.feature-box {
+    background-color: rgb(74, 35, 99);
+    border: 1px solid #545454;
+    border-radius: 3px;
+    width: 700px;
+    height: 80px;
 }
 
+.box-0 {
+    padding: 30px;
+}
 
+.box-1 {
+    color: #9ba0b8;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #ddd;
+    border-right: 0px;
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.box-2 {
+    color: #9ba0b8;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
 
 #ddd  3
 #9ba0b8 4
 #cc00ff  1
 #7000ff  2
-
