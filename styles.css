@@ -9,22 +9,22 @@ body {
   }
 
 .container{
-    /*padding: 5% 10% 5% 10%;*/
+    padding: 5% 10% 5% 10%;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 .meta-container {
-    width: 100%;
-    min-width: 100%;
-    /*position: sticky;*/
+    width: 50%;
+    min-width: 50%;
     top: 100px;
     margin-bottom: 40px;
+    position: sticky;
 }
 
 .items-container {
-    padding: 0 20px;
+    padding: 0;
     flex-direction: column;
     display: flex;
     align-items: flex-start;
@@ -43,9 +43,13 @@ body {
 }
 
 .meta-portal-list {
-    padding-left: 0;
-    width: 100%;
+    padding-right: 20px;
+    width: 60%;
+    justify-content: left;
     overflow: hidden;
+    position: absolute;
+    top: 66.5%;
+    left: 35%;
 }
 
 .page-header {
@@ -139,9 +143,9 @@ a {
 
 .list {
     background: rgba(0,0,0,.3);
-    border: 1px solid #545454;
+    border: 1px #545454;
     border-radius: 5px;
-    width: 700px;
+    width: 50%;
     padding: 20px;
 }
 
@@ -149,10 +153,10 @@ a {
     background: rgba(0,0,0,.3);
     margin-top: 10px;
     margin-bottom: 5px;  
-    width: 700px;
+    width: 50%;
     padding: 20px;
     outline: none;
-    border: 1px solid #545454;
+    border: 1px #545454;
     border-radius: 5px;
 }
 
@@ -194,10 +198,8 @@ input {
     float: right;
 }
 
-.feature-box {
-    width: 100%;
-    border: 1px solid rgba(255,255,255,.07);
-    background-color: rgba(0,0,0,.3);
+/*.meta-portal-list {
+    width: 50%;
     min-height: 70px;
     display: flex;
     flex-direction: row;
@@ -206,18 +208,20 @@ input {
     padding: 15px 20px 5px;
     border-radius: 5px;
     margin-bottom: 50px;
+}*/
 
-    /*background-color: rgb(74, 35, 99);
-    background: (var(--mc1),var(--mc2));
-    border: 1px solid #545454;
-    border-radius: 3px;
-    width: 700px;
-    height: 80px;
-    margin-bottom: 50px;*/
+.feature-box {
+    background-color: rgba(0,0,0,.3);
+    border: 1px #545454;
+    border-radius: 5px;
+    width: 100%;
+    height: 70px;
+    margin-left: 2px;
+    margin-bottom: 50px;
 }
 
 .box-0 {
-    padding: 30px;
+    padding: 25px;
 }
 
 .box-1 {
@@ -253,7 +257,6 @@ input {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    list-style-type: none
 }
 
 .display {
@@ -290,6 +293,15 @@ li {
     vertical-align: middle;
     width: max-content;
     text-align: center;
+}
+
+.meta-name {
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 21px;
 }
 
 
