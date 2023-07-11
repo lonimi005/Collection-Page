@@ -4,29 +4,32 @@
 }
 
 body {
-    color: var(--primary-color-4);
+    color: #9ba0b8;
+    background: rgb(29,18,32);
     background: linear-gradient(90deg, rgba(29,18,32,1) 0%, rgba(102,38,142,1) 50%, rgba(27,18,29,1) 100%);
-  }
+}
 
 .container{
-    padding: 5% 10% 5% 10%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 .meta-container {
-    width: 50%;
+    width: 60%;
     min-width: 50%;
+    left: -10%;
     top: 100px;
     margin-bottom: 40px;
     position: sticky;
 }
 
 .items-container {
-    padding: 0;
+    margin-top: 15%;
     flex-direction: column;
     display: flex;
+    position: sticky;
     align-items: flex-start;
     width: 100%;
     max-width: 1800px;
@@ -43,13 +46,12 @@ body {
 }
 
 .meta-portal-list {
-    padding-right: 20px;
-    width: 60%;
-    justify-content: left;
+    padding-right: 0;
+    width: 57%;
     overflow: hidden;
     position: absolute;
-    top: 66.5%;
-    left: 35%;
+    bottom: -22.5%;
+    right: 8%;
 }
 
 .page-header {
@@ -66,63 +68,7 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
-
-/*.function-divider {
-    width: 100%;
-    position: relative;
-    height: 12px;
-    box-sizing: border-box;
-}
-
-.function-divider, .long-oval {
-    position: relative;
-    display: flex;
-    margin: 0 auto;
-    width: fit-content;
-    max-width: 100%;
-}
-
-.function-divider, .long-oval ::before {
-    right: 100%;
-    margin-right: 20px;
-    position: absolute;
-    background-color: rgba(255,255,255,.15);
-    height: 1px;
-    top: 5px;
-    width: 5000px;
-}
-
-.function-divider span {
-    height: 12px;
-    position: relative;
-    display: block;
-    border: 2px solid rgba(255,255,255,.5);
-    border-radius: 12px;
-}
-
-.function-divider span ::after {
-    right: -2px;
-    bottom: -2px;
-    top: -2px;
-    left: -2px;
-    border-radius: 12px;
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-    color: #ddd;
-    opacity: .15;
-    box-shadow: 0 5px 20px;
-}
-
-.function-divider .short {
-    width: 12px;
-}
-
-.function-divider .long {
-    width: 200px;
-}*/
   
-
 p {
     color: #ddd;
     display: flex;
@@ -251,7 +197,7 @@ input {
 
 
 .meta-functions {
-    margin: 0 0 0 -40px;
+    margin: 0 0 0 -75px;
     padding: 0;
     list-style-type: none;
     display: flex;
@@ -260,7 +206,6 @@ input {
 }
 
 .display {
-    padding: 0;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -268,8 +213,11 @@ input {
 }
 
 li {
+    width: 50%;
     padding-left: 40px;
     margin-bottom: 40px;
+    left: 0px;
+    top: 0px;
 }
 
 .nft-img {
@@ -282,23 +230,22 @@ li {
     text-align: center;
 }
 
-.img-holder {
+/*.img-holder {
     border: 1px;
     width: 300px;
     height: 300px;
     margin-bottom: 22px;
-}
+}*/
 
-.img {
+/*img {
     vertical-align: middle;
     width: max-content;
     text-align: center;
-}
+}*/
 
 .meta-name {
     color: #ccc;
-    margin: 0;
-    padding: 0;
+    margin-top: 10px;
     font-size: 18px;
     font-weight: 100;
     line-height: 21px;
