@@ -151,6 +151,7 @@ main{
     align-items:flex-start;
     width: 100%;
     max-width: 1800px;
+    z-index: -1;
 }
 
 .select-container {
