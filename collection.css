@@ -424,6 +424,15 @@ footer{
     .btn{
         width: 28%;
     }
+    .items-container {
+        flex-wrap: wrap;
+    }
+    .meta-container {
+        width: 100%;
+    }
+    .meta-portal-list {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 912px) {
@@ -497,4 +506,5 @@ footer{
         height: 30px;
     }
     
+
 }
